@@ -1,0 +1,127 @@
+/*con el * afectamos todo el estilo de la pagina y es buena practica quitar los maergenes y el padding para poder modificarlos mejor adewlante  */
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+    
+    
+    }
+    
+    /* Aqui le damos estilo a el body un fondo y cambiamos el estilo de letra */
+    body{
+    
+    background: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    }
+    
+    /* aqui llamamos el id main de el div main que tenemos en el html asi podemos modificarlo */
+    #main{
+    
+    width: 70%;
+    margin: 0px auto;
+    
+    
+    }
+
+    
+
+    .banner {
+        width: 100%;
+        padding: 9rem 3rem;
+        text-align: center;
+        background: url("img/fondo_header.jpg");
+        background-color: rgba(0,0,0,.3);
+        background-blend-mode: soft-light;
+        background-size: cover;
+        background-position: center;
+        box-sizing: border-box;
+    }
+    
+    .banner h1 {
+        color: #f1f1f1;
+    }
+    
+    .container {
+        width: 100%;
+        height: 60px;
+        background: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5rem;
+        box-sizing: border-box;
+        position: sticky;
+        top: 0px;
+    }
+    
+    .logo {
+        width: 40px;
+        margin: 0;
+    }
+    
+    .logo img {
+        width: 100%;
+    }
+    
+    .item-options {
+        float: left;
+        color: #f1f1f1;
+        margin: 10px;
+        text-decoration: none;
+    }
+
+
+    
+    
+    /*aqui llamamos el div con el id fix para ingresar esto que nos permite hacer que nuestra informacion que este debajo no se mezcle con 
+    la que esta arriba como vemos en dos casos aqui  */
+    .fix{
+    
+    clear: both;
+    
+    
+    
+    }
+    
+    
+    /*Lllamamos a el id contenido del section que creamos en el html para poder modificarlo*/
+
+   
+    .contenido{
+    
+    float: left;
+    width: calc(100% - 80px);
+    min-height: 500px;
+    background: white;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    border-top: 2px solid black;
+    text-align: center;
+    padding-bottom: 30px;
+    
+    }
+
+    
+    
+  
+    
+        
+    
+    /* y por ultimo modificamos el estilo de el footer */
+    footer{
+    
+        background: black;
+        color: white;
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+        
+        }
+    
+    
+    
+   
